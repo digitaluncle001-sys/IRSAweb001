@@ -43,18 +43,19 @@ export default function ApplicationRequirements() {
               Bank: <strong>{fs.bank}</strong>
             </p>
             {ready ? (
-              <a
-                href={election.applicationUrl}
-                className="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                APPLICATION DETAILS
-              </a>
-            ) : (
-              <button type="button" className="btn btn-disabled" disabled>
-                APPLICATION DETAILS — TO BE CONFIRMED
-              </button>
+              {election.applicationUrl ? (
+  <a
+    href={election.applicationUrl}
+    className="btn btn-primary"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    CONFIRM PAYMENT
+  </a>
+) : (
+  <button type="button" className="btn btn-disabled" disabled>
+    CONFIRM PAYMENT — TO BE CONFIRMED
+  </button>
             )}
           </Reveal>
         </div>
