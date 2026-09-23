@@ -49,7 +49,7 @@ export default function ApplicationRequirements() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                APPLICATION DETAILS
+                CHAT WITH ZION
               </a>
             ) : (
               <button type="button" className="btn btn-disabled" disabled>
