@@ -348,35 +348,35 @@ export const committee = {
       role: "Electoral Chairman",
       level: "400 Level",
       phone: "0706 704 1117",
-      photo: "/committee-placeholder.png",
+      photo: "/committee-sean.png",
     },
     {
       name: "Thomas Zion",
       role: "Electoral Secretary",
       level: "300 Level",
       phone: "0916 402 1253",
-      photo: "/committee-placeholder.png",
+      photo: "/committee-zion.png",
     },
     {
-      name: "Munir Seth",
+      name: "Ose-Odogbo Flouris",
+      role: "Electoral Committee Member",
+      level: "400 Level",
+      phone: "0913 114 8262",
+      photo: "/committee-flourish.png",
+    },
+    {
+      name: "Omaghomi Alero Lily",
+      role: "Electoral Committee Member",
+      level: "400 Level",
+      phone: "0909 157 0392",
+      photo: "/committee-Alero.png",
+    },
+    {
+      name: "Munir Sethh", // 
       role: "Electoral Committee Member",
       level: "300 Level",
       phone: "0705 395 1739",
-      photo: "/committee-placeholder.png",
-    },
-    {
-      name: "Anyachor Paris",
-      role: "Electoral Committee Member",
-      level: "400 Level",
-      phone: "0810 149 9510",
-      photo: "/committee-placeholder.png",
-    },
-    {
-      name: "[Member Name]", // ← edit this 5th slot
-      role: "Electoral Committee Member",
-      level: "[Level]",
-      phone: "[Phone]",
-      photo: "/committee-placeholder.png",
+      photo: "/committee-seth.png",
     },
   ],
   contact:
