@@ -45,7 +45,7 @@ status: "Applications Open",
 // Add a URL only if the process changes to online.
 // ------------------------------------------------------------
 votingUrl: null,       // Voting is offline (in person)
-applicationUrl: null,  // Applications are submitted physically
+applicationUrl: "https://wa.me/2349164021253",  // Applications are submitted physically
 complaintUrl: null,    // Add a URL if/when an online complaint form is created
 
   // ------------------------------------------------------------
