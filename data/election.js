@@ -33,17 +33,20 @@ export const election = {
 
   // ------------------------------------------------------------
   // ELECTION STATUS — set ONE of the following values:
-  // "Applications Open" | "Applications Closed" | "Screening" |
-  // "Candidates Confirmed" | "Campaign Period" | "Voting Open" |
-  // "Voting Closed" | "Results Published" | "[TO BE CONFIRMED]"
-  // ------------------------------------------------------------
-  status: "Applications Open",
+// "Applications Open" | "Applications Closed" | "Screening" |
+// "Candidates Confirmed" | "Campaign Period" | "Voting Open" |
+// "Voting Closed" | "Results Published" | "[TO BE CONFIRMED]"
+// ------------------------------------------------------------
+status: "Applications Open",
 
-  // URLs — leave as null until confirmed. Replace with the real
-  // URL to automatically activate the buttons site-wide.
-  votingUrl: null, // Voting is OFFLINE (in person) — not used.
-  applicationUrl: null, // [TO BE CONFIRMED]
-  complaintUrl: null, // [TO BE CONFIRMED]
+// URLs
+// Application is physical, so applicationUrl remains null.
+// Voting is also conducted physically, so votingUrl remains null.
+// Add a URL only if the process changes to online.
+// ------------------------------------------------------------
+votingUrl: null,       // Voting is offline (in person)
+applicationUrl: null,  // Applications are submitted physically
+complaintUrl: null,    // Add a URL if/when an online complaint form is created
 
   // ------------------------------------------------------------
   // FORM SALES — who to pay, who to contact
