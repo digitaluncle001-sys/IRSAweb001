@@ -26,7 +26,7 @@ export const election = {
   intro:
     "Stay informed about the 2026/2027 IRSA Election — including election dates, candidate information, eligibility requirements, form prices, voting instructions and election rules.",
   dateLabel: "13 OCTOBER 2026",
-  votingHours: "In-person voting — venue announced by the Electoral Committee",
+  votingHours: "In-person voting — venue will be announced by the Electoral Committee",
 
   // Countdown target — West Africa Time (UTC+1). Easy to change:
   countdownTarget: "2026-10-13T00:00:00+01:00",
@@ -52,9 +52,9 @@ export const election = {
     opens: "23 September 2026",
     closes: "30 September 2026, 11:59 PM",
     note: "Forms are purchased from members of the Electoral Committee listed below. Payment must be made ONLY into the official account communicated by the Electoral Committee — the Committee will not be held accountable for money paid into any other account.",
-    accountName: "[TO BE CONFIRMED]",
-    accountNumber: "[TO BE CONFIRMED]",
-    bank: "[TO BE CONFIRMED]",
+    accountName: "THOMAS ZION ATSERUNEYINORITSE",
+    accountNumber: "1867587480",
+    bank: "ACCESS BANK",
   },
 };
 
