@@ -146,7 +146,7 @@ export const positions = [
   { position: "Sports Director", level: "300 / 400 Level", cgpa: "3.0 & above", price: "₦6,000" },
   { position: "Assistant Sports Director", level: "200 / 300 Level", cgpa: "3.0 & above", price: "₦5,000" },
   { position: "Financial Secretary", level: "400 Level", cgpa: "3.5 & above", price: "₦6,000" },
-  { position: "Director of Studies", level: "300 / 400 Level", cgpa: "3.5 & above", price: "₦7,000" },
+  { position: "Director of Studies", level: "300 / 400 Level", cgpa: "4.0 & above", price: "₦7,000" },
 ];
 
 // ------------------------------------------------------------
